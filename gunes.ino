@@ -19,7 +19,7 @@ int ldrld = A0; // Sol alt
 int ldrrd = A1; // Sağ alt
 
 void setup() {
-  Serial.begin(9600);   // 🔴 EKSİKTİ
+  Serial.begin(9600);  
   horizontal.attach(9);
   vertical.attach(10);
 
